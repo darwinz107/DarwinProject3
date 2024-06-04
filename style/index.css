@@ -1,0 +1,71 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(215, 234, 250);
+}
+.navbar{
+
+    width: 100%;
+    background-color: gray;
+    overflow: auto;
+}
+.navbar a{
+float: left;
+padding: 10px;
+text-decoration: none;
+color: white;
+}
+.navbar i{
+    padding-right: 5px;
+}
+.navbar a:hover{
+
+    background-color: aqua;
+}
+
+.active{
+    background-color: aqua;
+}
+
+.container{
+padding: 20px 0 20px 0;
+    text-align: center;
+    margin: 0 15%;
+}
+h1, h2 ,p{
+
+    padding-top: 15px;
+}
+
+
+.responsive{
+    display: none;
+}
+
+.intereses{
+     text-align: center;
+}
+.intereses a{
+
+    display: block;
+    margin-top: 10px;
+   
+}
+
+
+@media(max-width:500px){
+
+.responsive{
+    display: block;
+    float: right;
+    padding: 10px;
+}
+a{
+    display: none;
+}
+
+
+}

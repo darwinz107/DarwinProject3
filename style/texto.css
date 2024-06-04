@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    }
+body{
+    background-color: rgb(215, 234, 250);
+}
+    .navbar{
+    
+        width: 100%;
+        background-color: gray;
+        overflow: auto;
+    }
+    .navbar a{
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    }
+    .navbar i{
+        padding-right: 5px;
+    }
+    .navbar a:hover{
+    
+        background-color: aqua;
+    }
+    
+    .active{
+        background-color: aqua;
+    }
+    
+  
+   
+.introduccion{
+    text-align: center;
+    padding: 15px;
+}
+
+.grid-container4{
+display: grid;
+
+grid-template-columns: auto auto auto auto;
+background-color: gray;
+gap: 5px;
+padding: 15px;
+justify-content: space-evenly;
+}
+
+.grid-container4 > div{
+background-color:gainsboro ;
+text-align: center;
+
+margin: 15px;
+padding: 15px;
+}
+
+.grid-container3{
+    display: grid;
+    
+    grid-template-columns: auto auto auto ;
+    background-color: gray;
+    gap: 5px;
+    padding: 15px;
+    justify-content: space-evenly;
+    }
+    
+    .grid-container3 > div{
+    background-color:gainsboro ;
+    text-align: center;
+    
+    margin: 15px;
+    padding: 15px;
+    }
+    .grid-container5{
+        display: grid;
+        
+        grid-template-columns: auto auto auto auto auto ;
+        background-color: gray;
+        gap: 5px;
+        padding: 15px;
+        justify-content: space-evenly;
+        }
+        
+        .grid-container5 > div{
+        background-color:gainsboro ;
+        text-align: center;
+        
+        margin: 15px;
+        padding: 15px;
+        }
+
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+
+h4{
+    margin: 20px;
+    font-size: 30px;
+}
+   h6{
+    font-size: 15px;
+    margin-bottom: 10px;
+   } 
+.overline{
+    text-decoration: overline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.underline{
+    text-decoration: underline;
+}
+.overline-underline{
+    text-decoration: overline underline;
+}
+
+.uppercase{
+text-transform: uppercase;
+}
+.lowercase{
+text-transform: lowercase;
+}
+.capitalize{
+text-transform: capitalize;
+}
+.serif{
+    font-family: serif;
+}
+.sans-Serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: 'lucida handwriting', cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+
+
+    .responsive{
+        display: none;
+    }
+    
+    
+    
+    @media(max-width:500px){
+    
+    .responsive{
+        display: block;
+        float: right;
+        padding: 10px;
+    }
+    a{
+        display: none;
+    }
+    
+    
+    }
+    

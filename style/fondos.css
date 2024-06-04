@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    }
+body{
+    background-color: rgb(215, 234, 250);
+}
+    .navbar{
+    
+        width: 100%;
+        background-color: gray;
+        overflow: auto;
+    }
+    .navbar a{
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    }
+    .navbar i{
+        padding-right: 5px;
+    }
+    .navbar a:hover{
+    
+        background-color: aqua;
+    }
+    
+    .active{
+        background-color: aqua;
+    }
+    
+  
+   
+.introduccion{
+    text-align: center;
+    padding: 15px;
+}
+.grid-container3{
+    display: grid;
+    
+    grid-template-columns: auto auto auto ;
+    background-color: gray;
+    gap: 5px;
+    padding: 15px;
+    justify-content: space-evenly;
+    }
+    
+    .grid-container3 > div{
+   
+    width: 25vw;
+    height: 50vh;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 15px;
+    }
+    .plano{
+        background-color: aqua;
+    }
+    .gradiente{
+background: linear-gradient(to right, red,blue);
+    }
+    .imagen{
+background-image: url(https://img.freepik.com/foto-gratis/pintura-lago-montana-montana-al-fondo_188544-9126.jpg?t=st=1717449027~exp=1717452627~hmac=99e3c7c9187d98fe853649740a43939ec0531561f970d7a3b7221ee32033e750&w=740);
+    }
+
+    .responsive{
+        display: none;
+    }
+    
+    
+    
+    @media(max-width:500px){
+    
+    .responsive{
+        display: block;
+        float: right;
+        padding: 10px;
+    }
+    a{
+        display: none;
+    }
+    
+    
+    }
